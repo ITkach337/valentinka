@@ -52,3 +52,24 @@ body{
   box-shadow: -15px 15px 120px #f20044;
 }
 
+.text{
+  position: absolute;
+  z-index: 10;
+  color: aliceblue;
+  font-size: 13px;
+  top: 47%;
+  animation: pulsate 1s ease-out infinite;
+  opacity: 0.5;
+}
+
+@keyframes pulsate{
+  0%{
+    opacity: 0.2;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.2;
+  }
+}
