@@ -57,7 +57,7 @@ body{
   z-index: 10;
   color: aliceblue;
   font-size: 13px;
-  top: 47%;
+  top: 50%;
   animation: pulsate 1s ease-out infinite;
   opacity: 0.5;
 }
